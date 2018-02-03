@@ -12,6 +12,11 @@ class TravisTest(unittest.TestCase):
         """ Check to see if it adds the word 'blah' to each line. """
         assert(3 == 3)
 
+
+    def test_annother_test(self):
+        """ Check to see if it adds the word 'blah' to each line. """
+        assert(3 == 3)
+
     def test_broken(self):
         """ Check to see if it adds the word 'blah' to each line. """
         assert(2 == 3)
